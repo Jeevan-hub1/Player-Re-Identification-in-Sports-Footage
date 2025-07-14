@@ -25,7 +25,7 @@ This project implements a player re-identification system that maintains consist
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/Jeevan-hub1/Player-Re-Identification-in-Sports-Footage>
    cd player-reid
    ```
 
@@ -49,7 +49,7 @@ This project implements a player re-identification system that maintains consist
 ### Basic Usage
 
 ```bash
-python player_reid.py --video path/to/15sec_input_720p.mp4 --model path/to/yolo_model.pt
+python player_reid.py --video path/to/15sec_input_720p.mp4 --model path/to/best.pt
 ```
 
 ### Complete Usage with Output
@@ -57,7 +57,7 @@ python player_reid.py --video path/to/15sec_input_720p.mp4 --model path/to/yolo_
 ```bash
 python player_reid.py \
     --video path/to/15sec_input_720p.mp4 \
-    --model path/to/yolo_model.pt \
+    --model path/to/best.pt \
     --output_video output_with_tracking.mp4 \
     --output_json tracking_results.json \
     --confidence 0.5
@@ -76,7 +76,7 @@ python player_reid.py \
 ```bash
 python player_reid.py \
     --video data/15sec_input_720p.mp4 \
-    --model models/yolo_model.pt \
+    --model models/best.pt \
     --output_video results/tracked_video.mp4 \
     --output_json results/tracking_results.json \
     --confidence 0.6
@@ -245,8 +245,8 @@ This project is developed for educational purposes as part of an AI internship a
 ## Contact
 
 For questions or issues, please contact:
-- Email: your.email@example.com
-- GitHub: your-github-username
+- Email: nandakumarponnala@gmail.com
+- GitHub: Jeevan-hub1
 
 ## Acknowledgments
 
