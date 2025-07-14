@@ -1,0 +1,9 @@
+{
+  "total_players": 23,
+  "total_frames": 375,
+  "fragmented_tracks": 14,
+  "fragmentation_rate": 0.6086956521739131,
+  "total_gaps": 224,
+  "avg_detections_per_frame": 13.952,
+  "detection_consistency": 3.4203843838570736
+}

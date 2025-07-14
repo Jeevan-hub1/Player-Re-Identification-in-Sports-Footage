@@ -1,0 +1,7 @@
+{
+    "python_version": "3.12",
+    "model_version": "YOLOv11",
+    "input_resolution": "720p",
+    "dependencies": "ultralytics>=8.0.0\nopencv-python>=4.5.0\nnumpy>=1.21.0\nscipy>=1.7.0\nscikit-learn>=1.0.0\ntorch>=1.9.0\ntorchvision>=0.10.0",
+    "created_date": "1752438515.3541288"
+}
